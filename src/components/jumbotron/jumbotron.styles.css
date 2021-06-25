@@ -1,0 +1,10 @@
+.jumbo{
+    background-image: url('header.jpg');
+    height:70vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden
+}
+.header {
+    color: #e1fcf9;
+}

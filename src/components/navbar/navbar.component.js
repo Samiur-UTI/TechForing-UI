@@ -38,7 +38,7 @@ export default function NavigationBar() {
                 <Navbar.Brand href="#" ><img alt='' src='tick.png'/></Navbar.Brand>
                 <Nav className='justify-content-center'>
                     <Button variant="outline-secondary">
-                                <a alt='' href="/">Sign in</a> / <a href='/'>Sign Up</a>
+                        <a alt='' href="/">Sign in</a> / <a href='/'>Sign Up</a>
                     </Button>
                 </Nav>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

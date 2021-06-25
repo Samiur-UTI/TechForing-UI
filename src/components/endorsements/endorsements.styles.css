@@ -1,0 +1,7 @@
+.image-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:20vh;
+    margin-top:10px
+}
