@@ -1,10 +1,12 @@
 import './App.css';
 import NavigationBar from './components/navbar/navbar.component'
-import {Container,Row} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 import Jumbo from './components/jumbotron/jumbotron.component'
 import Endorsements from './components/endorsements/endorsements.component'
 import Scan from './components/scan/scan.component'
 import SampleReport from './components/sample-report/sample-report.component'
+import TestInfo from './components/test-info/test-info.component'
+import Features from './components/features/features.component'
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,9 @@ function App() {
         <Endorsements/>
         <Scan/>
         <SampleReport/>
+        <TestInfo/>
+        <Endorsements/>
+        <Features/>
       </Container>
     </div>
   );

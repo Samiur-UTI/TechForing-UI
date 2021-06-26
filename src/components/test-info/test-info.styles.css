@@ -1,0 +1,14 @@
+.test-info{
+    margin: 10% 10% 0 0;
+}
+.content{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.icon{
+    width:30%
+}
+.words {
+    margin-top:20px
+}
