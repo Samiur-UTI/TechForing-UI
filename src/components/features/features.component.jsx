@@ -19,7 +19,7 @@ export default function Features() {
                     <Row className="justify-content-lg-around">
                             <div className="feature-caption">
                                 <h2>Wala this is what you will get from us!</h2>
-                                <p>Sama wala pola asoidjkmc</p>
+                                <p>AOISjdc asdi asoidjkmc</p>
                             </div>
 
                         <Row lg={6} md="auto">
