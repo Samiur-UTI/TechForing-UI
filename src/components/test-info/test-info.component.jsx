@@ -13,7 +13,7 @@ export default function TestInfo() {
                             <img alt="" src="tick.png"/>
                         </div>
                         <div className="body">
-                            <h3>SamaVuda</h3>
+                            <h3>PASasd</h3>
                             <p>DADNSAONNCOIASCIOnmasd aoisdo osai oiajsd</p>
                         </div>
                     </div>
@@ -22,7 +22,7 @@ export default function TestInfo() {
                             <img alt="" src="tick.png"/>
                         </div>
                         <div className="body">
-                            <h3>SamaVuda</h3>
+                            <h3>SADasdc</h3>
                             <p>DADNSAONNCOIASCIOnmasd aoisdo osai oiajsd</p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export default function TestInfo() {
                                 <img alt="" src="tick.png"/>
                             </div>
                             <div className="body">
-                                <h3>SamaVuda</h3>
+                                <h3>ASDasd</h3>
                                 <p>DADNSAONNCOIASCIOnmasd aoisdo osai oiajsd</p>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ export default function TestInfo() {
                                 <img alt="" src="tick.png"/>
                             </div>
                             <div className="body">
-                                <h3>SamaVuda</h3>
+                                <h3>SADSAD</h3>
                                 <p>DADNSAONNCOIASCIOnmasd aoisdo osai oiajsd</p>
                             </div>
                         </div>

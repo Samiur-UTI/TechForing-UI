@@ -5,25 +5,26 @@ import './endorsements.styles.css'
 export default function Endorsements() {
     return (
         <Row className="image-gallery">
-            <Col md={1.5} >
-                <img alt='' src='tick.png'/>
+            <Col lg={1} md={6}>
+                <img style={{width: '80%'}} alt='' src='amazon.jpeg'/>
             </Col>
-            <Col md={1.5} >
-                <img alt='' src='tick.png'/>
+            <Col lg={1} md={6}>
+                <img style={{width: '80%'}} alt='' src='amazon.jpeg'/>
             </Col>
-            <Col md={1.5} >
-                <img alt='' src='tick.png'/>
+            <Col lg={1} md={6}>
+                <img style={{width: '80%'}} alt='' src='amazon.jpeg'/>
             </Col>
-            <Col md={1.5} >
-                <img alt='' src='tick.png'/>
+            <Col lg={1} md={6}>
+                <img style={{width: '80%'}} alt='' src='amazon.jpeg'/>
             </Col>
-            <Col md={1.5} >
-                <img alt='' src='tick.png'/>
+            <Col lg={1} md={6}>
+                <img style={{width: '80%'}} alt='' src='amazon.jpeg'/>
             </Col>
-            <Col md={1.5} >
+            <Col lg={1} md={6}>
+                <img style={{width: '80%'}} alt='' src='amazon.jpeg'/>
             </Col>
-            <Col md={1.5} >
-                <img alt='' src='tick.png'/>
+            <Col lg={1} md={6}>
+                <img style={{width: '80%'}} alt='' src='amazon.jpeg'/>
             </Col>
         </Row>
     )

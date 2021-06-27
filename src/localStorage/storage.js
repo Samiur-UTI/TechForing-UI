@@ -61,7 +61,7 @@ export const footerLinks = [
                 text:"LEADERSHIP"
             },
             {
-                id:"a2",
+                id:"asas9802134",
                 text:"CLIENTS & STORIES"
             },
             {
@@ -84,7 +84,7 @@ export const footerLinks = [
     },
     {
         id:2,
-        header:"Company",
+        header:"Popular Links",
         features:[
             {
                 id:"B1",
@@ -118,7 +118,7 @@ export const footerLinks = [
     },
     {
         id:3,
-        header:"Company",
+        header:"Resource",
         features:[
             {
                 id:"a1231",
@@ -152,7 +152,7 @@ export const footerLinks = [
     },
     {
         id:4,
-        header:"Company",
+        header:"Legal",
         features:[
             {
                 id:"C1",
