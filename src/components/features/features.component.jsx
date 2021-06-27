@@ -25,7 +25,7 @@ export default function Features() {
                         <Row lg={6} md="auto">
                             <Col lg={6} md={12}>
                                 {firsttwo.map(item =>(
-                                    <div className="feature">
+                                    <div key={item.id} className="feature">
                                         <div className="feature-icon">
                                             <img alt='' src={item.source}/>
                                         </div>
@@ -37,7 +37,7 @@ export default function Features() {
                             </Col>
                             <Col lg={6} md={12}>
                                 {nexttwo.map(item =>(
-                                        <div className="feature">
+                                        <div key={item.id} className="feature">
                                             <div className="feature-icon">
                                                 <img alt='' src={item.source}/>
                                             </div>
@@ -51,7 +51,7 @@ export default function Features() {
                         <Row className="feature-single" lg={3} md="auto">
                             <Col lg={12} md={12}>
                                 {lastone.map(item =>(
-                                    <div className="feature">
+                                    <div key={item.id} className="feature">
                                         <div className="feature-icon">
                                             <img alt='' src={item.source}/>
                                         </div>

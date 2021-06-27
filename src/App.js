@@ -10,6 +10,8 @@ import Features from './components/features/features.component'
 import Testimonials from './components/testmonials/testimonials.component'
 import Pricing from './components/pricing/pricing.component';
 import FreeTrial from './components/free trial/freeTrial.component'
+import Resources from './components/resources/resources.component';
+import Footer from './components/footer/footer.component'
 function App() {
   return (
     <div className="App">
@@ -26,6 +28,10 @@ function App() {
         <Pricing/>
       </Container>
       <FreeTrial/>
+      <Container>
+        <Resources/>
+      </Container>
+      <Footer/>
     </div>
   );
 }
