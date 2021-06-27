@@ -1,27 +1,33 @@
+let s4 = () => {
+    return Math.floor((1 + Math.random()) * 0x10000)
+        .toString(16)
+        .substring(1);
+  }
+  
 export const features = [
     {   
         id:1,
-        source:"tick.png",
+        source:"scan.png",
         paragraph: "DASdkjmnsa asoidjaskdmnck iawdj mnasclki jaskdmc iasjdka asd!"
     },
     {
         id:2,
-        source:"tick.png",
+        source:"customer1.png",
         paragraph: "DASdkjmnsa asoidjaskdmnck iawdj mnasclki jaskdmc iasjdka asd!"
     },
     {
         id:3,
-        source:"tick.png",
+        source:"team.png",
         paragraph: "DASdkjmnsa asoidjaskdmnck iawdj mnasclki jaskdmc iasjdka asd!"
     },
     {
         id:4,
-        source:"tick.png",
+        source:"clipboard.png",
         paragraph: "DASdkjmnsa asoidjaskdmnck iawdj mnasclki jaskdmc iasjdka asd!"
     },
     {
         id:5,
-        source:"tick.png",
+        source:"report2.png",
         paragraph: "DASdkjmnsa asoidjaskdmnck iawdj mnasclki jaskdmc iasjdka asd!"
     }
  
@@ -184,4 +190,61 @@ export const footerLinks = [
             }
         ]
     }
+]
+export const endorsements = [
+    {
+        id:s4(),
+        source:"amazon.png"
+    },
+    {
+        id:s4(),
+        source:"ibm.png"
+    },
+    {
+        id:s4(),
+        source:"intel.png"
+    },
+    {
+        id:s4(),
+        source:"google.png"
+    },
+    {
+        id:s4(),
+        source:"fb.png"
+    },
+    {
+        id:s4(),
+        source:"apple.png"
+    },
+    {
+        id:s4(),
+        source:"mdn.jpeg"
+    }
+]
+export const quality = [
+    {
+        id:s4(),
+        source:"tick.png",
+        heading:"100%",
+        text:"Guaranteed"
+    },
+    {
+        id:s4(),
+        source:"customer.png",
+        heading:"700k+",
+        text:"Satisfied Client"
+    },
+    {
+        id:s4(),
+        source:"zoom.png",
+        heading:"500",
+        text:"Sites Scanned Daily"
+    },
+    {
+        id:s4(),
+        source:"scan.png",
+        heading:"100%",
+        text:"Authenticate report generated"
+    }
+
 ]

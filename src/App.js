@@ -18,11 +18,11 @@ function App() {
       <NavigationBar/>
       <Container>
         <Jumbo/>
-        <Endorsements/>
+        <Endorsements props={"companies"}/>
         <Scan/>
         <SampleReport/>
         <TestInfo/>
-        <Endorsements/>
+        <Endorsements props={"qualities"}/>
         <Features/>
         <Testimonials/>
         <Pricing/>
