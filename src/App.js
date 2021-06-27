@@ -7,6 +7,8 @@ import Scan from './components/scan/scan.component'
 import SampleReport from './components/sample-report/sample-report.component'
 import TestInfo from './components/test-info/test-info.component'
 import Features from './components/features/features.component'
+import Testimonials from './components/testmonials/testimonials.component'
+import Pricing from './components/pricing/pricing.component';
 function App() {
   return (
     <div className="App">
@@ -19,6 +21,8 @@ function App() {
         <TestInfo/>
         <Endorsements/>
         <Features/>
+        <Testimonials/>
+        <Pricing/>
       </Container>
     </div>
   );

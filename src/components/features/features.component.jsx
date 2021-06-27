@@ -7,7 +7,6 @@ export default function Features() {
     const firsttwo = features.slice(0,2)
     const nexttwo = features.slice(2,4)
     const lastone = features.slice(4)
-    console.log(firsttwo,nexttwo,lastone)
     return (
         <div className="features">
             <Row>
