@@ -9,6 +9,7 @@ import TestInfo from './components/test-info/test-info.component'
 import Features from './components/features/features.component'
 import Testimonials from './components/testmonials/testimonials.component'
 import Pricing from './components/pricing/pricing.component';
+import FreeTrial from './components/free trial/freeTrial.component'
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
         <Testimonials/>
         <Pricing/>
       </Container>
+      <FreeTrial/>
     </div>
   );
 }
