@@ -45,7 +45,7 @@ export default function PriceColumn({props}) {
                             <td style={{color:'green'}} colSpan="2">Free Trial</td>
                         </tr>
                         <tr>
-                            <td><Button size="sm" variant="primary">SIGN UP</Button></td>
+                            <td><Button size="sm" variant="dark">SIGN UP</Button></td>
                         </tr>
                         
                     </tbody>

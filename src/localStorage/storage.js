@@ -42,13 +42,13 @@ export const resources = [
     },
     {
         id:2,
-        source:"resource.png",
+        source:"tips.jpeg",
         text:"Follow our tips and trick on how to avoid website vulnerabilites",
         title:"Tips and Tricks"
     },
     {
         id:3,
-        source:"resource.png",
+        source:"blog.jpeg",
         text:"Read technical articles on cybersecurity",
         title:"Blog"
     },
