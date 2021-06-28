@@ -6,7 +6,7 @@ export default function FooterElement({items}) {
     return (
         <Row>
             <Col style={{paddingTop: '10px', color: 'white'}}>
-                <Row><h3>{items.header}</h3></Row>
+                <Row><h3 style={{borderBottom:"2px solid white"}}>{items.header}</h3></Row>
                 {items.features.map(item =>(
                     <Row key={item.id}>{item.text}</Row>
                 ))}

@@ -4,3 +4,20 @@
 .report-image{
     width:100%
 }
+@media (max-width:768px){
+    .blah{
+        margin-right: 2.5%;
+    }
+    
+}
+@media (min-width:768px) and (max-width:992px){
+    .blah{
+        margin-left: 2.5rem;
+    }
+    
+}
+@media (min-width:992px){
+    .report-image{
+        padding-right:15rem
+    }
+}

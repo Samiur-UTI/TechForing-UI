@@ -5,7 +5,7 @@ import "./resource.styles.css"
 export default function Resource({info}) {
     return (
         <Container>
-            <Card key={info.id}>
+            <Card className="card" key={info.id}>
                 <Card.Img variant="top" src={info.source} />
                 <Card.Body>
                     <Card.Title>{info.title}</Card.Title>

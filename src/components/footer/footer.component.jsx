@@ -15,8 +15,10 @@ export default function Footer() {
                         </Col>
                     ))}
                 </Row>
-                <Row lg={2}>
-
+                <Row className="footer-image" lg={2}>
+                    <div>
+                        <img alt='' src="social icons.png"/>
+                    </div>
                 </Row>
             </Container>
         </Row>

@@ -2,3 +2,9 @@
     overflow-x: hidden;
 
 }
+.footer-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top:1.5rem
+}

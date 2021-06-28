@@ -5,8 +5,13 @@
     border-left: 1px solid #9ca3ff;
     padding-top: 5px;
     margin-left: 3%;
-    padding-bottom:320px
+    padding-bottom:305px
 }
 .custom-header {
     border-bottom: 2px solid #9ca3ff;
+}
+@media (min-width: 992px) {
+    .pricing-container {
+        padding-left: 3rem;
+    }
 }
