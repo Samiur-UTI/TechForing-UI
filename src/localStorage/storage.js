@@ -248,3 +248,23 @@ export const quality = [
     }
 
 ]
+export const pricing = [
+    {
+        id:s4(),
+        plan:"BASIC",
+        user:"1 user",
+        price:"$49/month"
+    },
+    {
+        id:s4(),
+        plan:"MEDIUM",
+        user:"5 user",
+        price:"$199/month"
+    },
+    {
+        id:s4(),
+        plan:"ADVANCED",
+        user:"20 user",
+        price:"$349/month"
+    }
+]

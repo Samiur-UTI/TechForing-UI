@@ -3,6 +3,7 @@ import {Row,Col,Carousel} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./testimonials.styles.css"
 import Testimonial from './testimonial/testimonial.component'
+import {NextButton,PrevButton} from '../custombuttons/customButtons.component'
 export default function Testimonials() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
     const handleWidthChange = () => {
@@ -27,7 +28,7 @@ export default function Testimonials() {
         )
     } else {
         return(
-            <Carousel>
+            <Carousel nextIcon={<NextButton/>} prevIcon={<PrevButton/>}>
                 <Carousel.Item>
                     <Testimonial/>
                 </Carousel.Item>

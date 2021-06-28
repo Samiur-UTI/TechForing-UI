@@ -27,7 +27,7 @@ export default function Endorsements({props}) {
         return(
             <Row style={{paddingBottom:"1.5rem"}}>
                 {quality.map(item =>(
-                    <Col lg={3} md={12} sm={12}>
+                    <Col key={item.id}lg={3} md={12} sm={12}>
                         <img src={item.source} alt=""/>
                         <h1>{item.heading}</h1>
                         <p>{item.text}</p>
